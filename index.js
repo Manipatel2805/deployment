@@ -6,9 +6,9 @@ app.use(express.json())
 
 app.get("/",(req,res)=>{
 
-    res.send("hello world")
+    res.send("Manikanta")
 })
 
 app.listen(3002,()=>{
-    console.log("success")
+    console.log("SUCCESS")
 })
